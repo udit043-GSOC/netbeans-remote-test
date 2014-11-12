@@ -33,7 +33,7 @@ endif
 OBJS = api.o buffer.o cache.o ccc.o channel.o common.o core.o epoll.o list.o md5.o packet.o queue.o window.o
 DIR = $(shell pwd)
 
-all: libudt.so libudt.a udt
+all: libudt.a udt
 
 %.o: %.cpp %.h udt.h
 	$(C++) $(CCFLAGS) $< -c
