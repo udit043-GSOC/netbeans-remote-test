@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -e
+
+./configure \
+  --with-popt \
+  --with-ssl \
+  --with-mysql \
+  --with-apps \
+  --enable-dtls \
+  --enable-ipv6 \
+  --with-freeradius \
+  --with-repro \
+  --enable-repro-plugins \
+  DEPS_PYTHON_CFLAGS="`/usr/bin/python2.7-config --cflags`" \
+  DEPS_PYTHON_LIBS="`/usr/bin/python2.7-config --ldflags`" \
+  PYCXX_SRCDIR=/usr/share/python2.7/CXX/Python2 \
+  --with-python \
+  --with-rend \
+  --with-recon \
+  CPPFLAGS="-I/usr/include/sipxtapi -D__pingtel_on_posix__ -D_linux_ -D_REENTRANT -D_FILE_OFFS -DDEFAULT_BRIDGE_MAX_IN_OUTPUTS=20" \
+  CXXFLAGS="-Wformat -Werror=format-security -fpermissive" \
+  --with-c-ares
+

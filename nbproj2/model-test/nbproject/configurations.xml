@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="../.." name="0">
+      <df name="resiprocate">
+        <df name="resip">
+          <df name="dum">
+            <in>AppDialog.cxx</in>
+            <in>AppDialogSet.cxx</in>
+            <in>AppDialogSetFactory.cxx</in>
+            <in>BaseCreator.cxx</in>
+            <in>BaseSubscription.cxx</in>
+            <in>BaseUsage.cxx</in>
+            <in>CertMessage.cxx</in>
+            <in>ChallengeInfo.cxx</in>
+            <in>ClientAuthExtension.cxx</in>
+            <in>ClientAuthManager.cxx</in>
+            <in>ClientInviteSession.cxx</in>
+            <in>ClientOutOfDialogReq.cxx</in>
+            <in>ClientPagerMessage.cxx</in>
+            <in>ClientPublication.cxx</in>
+            <in>ClientRegistration.cxx</in>
+            <in>ClientSubscription.cxx</in>
+            <in>ContactInstanceRecord.cxx</in>
+            <in>DefaultServerReferHandler.cxx</in>
+            <in>DestroyUsage.cxx</in>
+            <in>Dialog.cxx</in>
+            <in>DialogEventInfo.cxx</in>
+            <in>DialogEventStateManager.cxx</in>
+            <in>DialogId.cxx</in>
+            <in>DialogSet.cxx</in>
+            <in>DialogSetId.cxx</in>
+            <in>DialogUsage.cxx</in>
+            <in>DialogUsageManager.cxx</in>
+            <in>DumDecrypted.cxx</in>
+            <in>DumFeature.cxx</in>
+            <in>DumFeatureChain.cxx</in>
+            <in>DumFeatureMessage.cxx</in>
+            <in>DumHelper.cxx</in>
+            <in>DumProcessHandler.cxx</in>
+            <in>DumThread.cxx</in>
+            <in>DumTimeout.cxx</in>
+            <in>EncryptionRequest.cxx</in>
+            <in>Handle.cxx</in>
+            <in>HandleException.cxx</in>
+            <in>HandleManager.cxx</in>
+            <in>Handled.cxx</in>
+            <in>HttpGetMessage.cxx</in>
+            <in>HttpProvider.cxx</in>
+            <in>IdentityHandler.cxx</in>
+            <in>InMemoryRegistrationDatabase.cxx</in>
+            <in>InMemorySyncRegDb.cxx</in>
+            <in>InviteSession.cxx</in>
+            <in>InviteSessionCreator.cxx</in>
+            <in>InviteSessionHandler.cxx</in>
+            <in>KeepAliveManager.cxx</in>
+            <in>KeepAliveTimeout.cxx</in>
+            <in>MasterProfile.cxx</in>
+            <in>MergedRequestKey.cxx</in>
+            <in>MergedRequestRemovalCommand.cxx</in>
+            <in>NetworkAssociation.cxx</in>
+            <in>NonDialogUsage.cxx</in>
+            <in>OutOfDialogReqCreator.cxx</in>
+            <in>OutgoingEvent.cxx</in>
+            <in>PagerMessageCreator.cxx</in>
+            <in>Profile.cxx</in>
+            <in>PublicationCreator.cxx</in>
+            <in>RADIUSServerAuthManager.cxx</in>
+            <in>RedirectManager.cxx</in>
+            <in>RegistrationCreator.cxx</in>
+            <in>RegistrationHandler.cxx</in>
+            <in>ServerAuthManager.cxx</in>
+            <in>ServerInviteSession.cxx</in>
+            <in>ServerOutOfDialogReq.cxx</in>
+            <in>ServerPagerMessage.cxx</in>
+            <in>ServerPublication.cxx</in>
+            <in>ServerRegistration.cxx</in>
+            <in>ServerSubscription.cxx</in>
+            <in>SubscriptionCreator.cxx</in>
+            <in>SubscriptionHandler.cxx</in>
+            <in>SubscriptionState.cxx</in>
+            <in>TargetCommand.cxx</in>
+            <in>TlsPeerAuthManager.cxx</in>
+            <in>UserAuthInfo.cxx</in>
+            <in>UserProfile.cxx</in>
+            <in>WsCookieAuthManager.cxx</in>
+          </df>
+          <df name="stack">
+            <df name="gen">
+              <in>DayOfWeekHash.cxx</in>
+              <in>HeaderHash.cxx</in>
+              <in>MethodHash.cxx</in>
+              <in>MonthHash.cxx</in>
+              <in>ParameterHash.cxx</in>
+            </df>
+            <in>Aor.cxx</in>
+            <in>ApiCheck.cxx</in>
+            <in>ApplicationSip.cxx</in>
+            <in>Auth.cxx</in>
+            <in>BasicNonceHelper.cxx</in>
+            <in>BranchParameter.cxx</in>
+            <in>CSeqCategory.cxx</in>
+            <in>CallId.cxx</in>
+            <in>Compression.cxx</in>
+            <in>Connection.cxx</in>
+            <in>ConnectionBase.cxx</in>
+            <in>ConnectionManager.cxx</in>
+            <in>Contents.cxx</in>
+            <in>ContentsFactoryBase.cxx</in>
+            <in>Cookie.cxx</in>
+            <in>CpimContents.cxx</in>
+            <in>DataParameter.cxx</in>
+            <in>DateCategory.cxx</in>
+            <in>DeprecatedDialog.cxx</in>
+            <in>DnsInterface.cxx</in>
+            <in>DnsResult.cxx</in>
+            <in>DtlsMessage.cxx</in>
+            <in>DtmfPayloadContents.cxx</in>
+            <in>Embedded.cxx</in>
+            <in>EventStackThread.cxx</in>
+            <in>ExistsOrDataParameter.cxx</in>
+            <in>ExistsParameter.cxx</in>
+            <in>ExpiresCategory.cxx</in>
+            <in>ExtensionHeader.cxx</in>
+            <in>ExtensionParameter.cxx</in>
+            <in>ExternalBodyContents.cxx</in>
+            <in>GenericContents.cxx</in>
+            <in>GenericUri.cxx</in>
+            <in>HeaderFieldValue.cxx</in>
+            <in>HeaderFieldValueList.cxx</in>
+            <in>HeaderTypes.cxx</in>
+            <in>Headers.cxx</in>
+            <in>Helper.cxx</in>
+            <in>IntegerCategory.cxx</in>
+            <in>IntegerParameter.cxx</in>
+            <in>InternalTransport.cxx</in>
+            <in>InteropHelper.cxx</in>
+            <in>InterruptableStackThread.cxx</in>
+            <in>InvalidContents.cxx</in>
+            <in>KeepAliveMessage.cxx</in>
+            <in>LazyParser.cxx</in>
+            <in>Message.cxx</in>
+            <in>MessageFilterRule.cxx</in>
+            <in>MessageWaitingContents.cxx</in>
+            <in>MethodTypes.cxx</in>
+            <in>Mime.cxx</in>
+            <in>MsgHeaderScanner.cxx</in>
+            <in>MultipartAlternativeContents.cxx</in>
+            <in>MultipartMixedContents.cxx</in>
+            <in>MultipartRelatedContents.cxx</in>
+            <in>MultipartSignedContents.cxx</in>
+            <in>NameAddr.cxx</in>
+            <in>NonceHelper.cxx</in>
+            <in>OctetContents.cxx</in>
+            <in>Parameter.cxx</in>
+            <in>ParameterTypes.cxx</in>
+            <in>ParserCategories.cxx</in>
+            <in>ParserCategory.cxx</in>
+            <in>ParserContainerBase.cxx</in>
+            <in>Pidf.cxx</in>
+            <in>Pkcs7Contents.cxx</in>
+            <in>Pkcs8Contents.cxx</in>
+            <in>PlainContents.cxx</in>
+            <in>PrivacyCategory.cxx</in>
+            <in>QValue.cxx</in>
+            <in>QValueParameter.cxx</in>
+            <in>QuotedDataParameter.cxx</in>
+            <in>RAckCategory.cxx</in>
+            <in>RequestLine.cxx</in>
+            <in>Rlmi.cxx</in>
+            <in>RportParameter.cxx</in>
+            <in>SERNonceHelper.cxx</in>
+            <in>SdpContents.cxx</in>
+            <in>SecurityAttributes.cxx</in>
+            <in>SipFrag.cxx</in>
+            <in>SipMessage.cxx</in>
+            <in>SipStack.cxx</in>
+            <in>StackThread.cxx</in>
+            <in>StatelessHandler.cxx</in>
+            <in>StatisticsHandler.cxx</in>
+            <in>StatisticsManager.cxx</in>
+            <in>StatisticsMessage.cxx</in>
+            <in>StatusLine.cxx</in>
+            <in>StringCategory.cxx</in>
+            <in>Symbols.cxx</in>
+            <in>TcpBaseTransport.cxx</in>
+            <in>TcpConnection.cxx</in>
+            <in>TcpTransport.cxx</in>
+            <in>TimeAccumulate.cxx</in>
+            <in>TimerMessage.cxx</in>
+            <in>TimerQueue.cxx</in>
+            <in>Token.cxx</in>
+            <in>TokenOrQuotedStringCategory.cxx</in>
+            <in>TransactionController.cxx</in>
+            <in>TransactionMap.cxx</in>
+            <in>TransactionState.cxx</in>
+            <in>TransactionUser.cxx</in>
+            <in>TransactionUserMessage.cxx</in>
+            <in>Transport.cxx</in>
+            <in>TransportFailure.cxx</in>
+            <in>TransportSelector.cxx</in>
+            <in>TransportThread.cxx</in>
+            <in>TuIM.cxx</in>
+            <in>TuSelector.cxx</in>
+            <in>Tuple.cxx</in>
+            <in>TupleMarkManager.cxx</in>
+            <in>UInt32Category.cxx</in>
+            <in>UInt32Parameter.cxx</in>
+            <in>UdpTransport.cxx</in>
+            <in>UnknownParameter.cxx</in>
+            <in>Uri.cxx</in>
+            <in>Via.cxx</in>
+            <in>WarningCategory.cxx</in>
+            <in>WsBaseTransport.cxx</in>
+            <in>WsConnection.cxx</in>
+            <in>WsConnectionBase.cxx</in>
+            <in>WsCookieContext.cxx</in>
+            <in>WsDecorator.cxx</in>
+            <in>WsFrameExtractor.cxx</in>
+            <in>WsTransport.cxx</in>
+            <in>X509Contents.cxx</in>
+          </df>
+        </df>
+        <df name="rutil">
+          <df name="dns">
+            <df name="ares">
+              <in>ares__close_sockets.c</in>
+              <in>ares__get_hostent.c</in>
+              <in>ares__read_line.c</in>
+              <in>ares_destroy.c</in>
+              <in>ares_expand_name.c</in>
+              <in>ares_fds.c</in>
+              <in>ares_free_errmem.c</in>
+              <in>ares_free_hostent.c</in>
+              <in>ares_free_string.c</in>
+              <in>ares_gethostbyaddr.c</in>
+              <in>ares_gethostbyname.c</in>
+              <in>ares_init.c</in>
+              <in>ares_local.c</in>
+              <in>ares_mkquery.c</in>
+              <in>ares_parse_a_reply.c</in>
+              <in>ares_parse_ptr_reply.c</in>
+              <in>ares_process.c</in>
+              <in>ares_query.c</in>
+              <in>ares_search.c</in>
+              <in>ares_send.c</in>
+              <in>ares_strerror.c</in>
+              <in>ares_timeout.c</in>
+            </df>
+            <in>AresDns.cxx</in>
+            <in>DnsAAAARecord.cxx</in>
+            <in>DnsCnameRecord.cxx</in>
+            <in>DnsHostRecord.cxx</in>
+            <in>DnsNaptrRecord.cxx</in>
+            <in>DnsResourceRecord.cxx</in>
+            <in>DnsSrvRecord.cxx</in>
+            <in>DnsStub.cxx</in>
+            <in>DnsThread.cxx</in>
+            <in>ExternalDnsFactory.cxx</in>
+            <in>QueryTypes.cxx</in>
+            <in>RRCache.cxx</in>
+            <in>RRList.cxx</in>
+            <in>RROverlay.cxx</in>
+            <in>RRVip.cxx</in>
+          </df>
+          <df name="stun">
+            <in>Stun.cxx</in>
+            <in>Udp.cxx</in>
+          </df>
+          <in>AbstractFifo.cxx</in>
+          <in>AndroidLogger.cxx</in>
+          <in>BaseException.cxx</in>
+          <in>Coders.cxx</in>
+          <in>Condition.cxx</in>
+          <in>ConfigParse.cxx</in>
+          <in>CountStream.cxx</in>
+          <in>Data.cxx</in>
+          <in>DataStream.cxx</in>
+          <in>DnsUtil.cxx</in>
+          <in>FdPoll.cxx</in>
+          <in>FileSystem.cxx</in>
+          <in>GeneralCongestionManager.cxx</in>
+          <in>HeapInstanceCounter.cxx</in>
+          <in>KeyValueStore.cxx</in>
+          <in>Lock.cxx</in>
+          <in>Log.cxx</in>
+          <in>MD5Stream.cxx</in>
+          <in>Mutex.cxx</in>
+          <in>NetNs.cxx</in>
+          <in>ParseBuffer.cxx</in>
+          <in>ParseException.cxx</in>
+          <in>Poll.cxx</in>
+          <in>PoolBase.cxx</in>
+          <in>RADIUSDigestAuthenticator.cxx</in>
+          <in>RWMutex.cxx</in>
+          <in>Random.cxx</in>
+          <in>RecursiveMutex.cxx</in>
+          <in>SelectInterruptor.cxx</in>
+          <in>ServerProcess.cxx</in>
+          <in>Sha1.cxx</in>
+          <in>Socket.cxx</in>
+          <in>Subsystem.cxx</in>
+          <in>SysLogBuf.cxx</in>
+          <in>SysLogStream.cxx</in>
+          <in>ThreadIf.cxx</in>
+          <in>Time.cxx</in>
+          <in>Timer.cxx</in>
+          <in>TransportType.cxx</in>
+          <in>XMLCursor.cxx</in>
+          <in>resipfaststreams.cxx</in>
+          <in>vmd5.cxx</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../../resiprocate/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>../..</Elem>
+  </sourceRootList>
+  <projectmakefile>../../resiprocate/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2 -fPIC"/>
+        <element flagsID="1" commonFlags="-g -O2 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../../resiprocate</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>sh -c "./configure; make clean"</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>../../resiprocate/rutil/dns/ares</pElem>
+              <pElem>../../resiprocate</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>PIC</Elem>
+              <Elem>RESIP_ARCH_X86_64</Elem>
+              <Elem>RESIP_LARCH_</Elem>
+              <Elem>RESIP_OSTYPE_LINUX</Elem>
+              <Elem>RESIP_TOOLCHAIN_GNU</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>PIC</Elem>
+              <Elem>RESIP_ARCH_X86_64</Elem>
+              <Elem>RESIP_LARCH_</Elem>
+              <Elem>RESIP_OSTYPE_LINUX</Elem>
+              <Elem>RESIP_TOOLCHAIN_GNU</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="../../resiprocate/resip/dum/AppDialog.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/AppDialogSet.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/AppDialogSetFactory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/BaseCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/BaseSubscription.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/BaseUsage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/CertMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ChallengeInfo.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientAuthExtension.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientAuthManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientInviteSession.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientOutOfDialogReq.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientPagerMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientPublication.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientRegistration.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ClientSubscription.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ContactInstanceRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DefaultServerReferHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DestroyUsage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/Dialog.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogEventInfo.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogEventStateManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogId.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogSet.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogSetId.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogUsage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DialogUsageManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumDecrypted.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumFeature.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumFeatureChain.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumFeatureMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumHelper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumProcessHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/DumTimeout.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/EncryptionRequest.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/Handle.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/HandleException.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/HandleManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/Handled.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/HttpGetMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/HttpProvider.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/IdentityHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/InMemoryRegistrationDatabase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/InMemorySyncRegDb.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/InviteSession.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/InviteSessionCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/InviteSessionHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/KeepAliveManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/KeepAliveTimeout.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/MasterProfile.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/MergedRequestKey.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/MergedRequestRemovalCommand.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/NetworkAssociation.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/NonDialogUsage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/OutOfDialogReqCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/OutgoingEvent.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/PagerMessageCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/Profile.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/PublicationCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/RADIUSServerAuthManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/RedirectManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/RegistrationCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/RegistrationHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerAuthManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerInviteSession.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerOutOfDialogReq.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerPagerMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerPublication.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerRegistration.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/ServerSubscription.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/SubscriptionCreator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/SubscriptionHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/SubscriptionState.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/TargetCommand.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/TlsPeerAuthManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/UserAuthInfo.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/UserProfile.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/dum/WsCookieAuthManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Aor.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ApiCheck.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ApplicationSip.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Auth.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/BasicNonceHelper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/BranchParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/CSeqCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/CallId.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Compression.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Connection.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ConnectionBase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ConnectionManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Contents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ContentsFactoryBase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Cookie.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/CpimContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DataParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DateCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DeprecatedDialog.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DnsInterface.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DnsResult.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DtlsMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/DtmfPayloadContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Embedded.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/EventStackThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExistsOrDataParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExistsParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExpiresCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExtensionHeader.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExtensionParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ExternalBodyContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/GenericContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/GenericUri.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/HeaderFieldValue.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/HeaderFieldValueList.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/HeaderTypes.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Headers.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Helper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/IntegerCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/IntegerParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/InternalTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/InteropHelper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/InterruptableStackThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/InvalidContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/KeepAliveMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/LazyParser.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Message.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MessageFilterRule.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MessageWaitingContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MethodTypes.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Mime.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MsgHeaderScanner.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MultipartAlternativeContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MultipartMixedContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MultipartRelatedContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/MultipartSignedContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/NameAddr.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/NonceHelper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/OctetContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Parameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ParameterTypes.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ParserCategories.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ParserCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/ParserContainerBase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Pidf.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Pkcs7Contents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Pkcs8Contents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/PlainContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/PrivacyCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/QValue.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/QValueParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/QuotedDataParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/RAckCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/RequestLine.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Rlmi.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/RportParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SERNonceHelper.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SdpContents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SecurityAttributes.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SipFrag.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SipMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/SipStack.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StackThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StatelessHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StatisticsHandler.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StatisticsManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StatisticsMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StatusLine.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/StringCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Symbols.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TcpBaseTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TcpConnection.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TcpTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TimeAccumulate.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TimerMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TimerQueue.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Token.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TokenOrQuotedStringCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransactionController.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransactionMap.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransactionState.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransactionUser.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransactionUserMessage.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Transport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransportFailure.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransportSelector.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TransportThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TuIM.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TuSelector.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Tuple.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/TupleMarkManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/UInt32Category.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/UInt32Parameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/UdpTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/UnknownParameter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Uri.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/Via.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WarningCategory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsBaseTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsConnection.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsConnectionBase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsCookieContext.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsDecorator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsFrameExtractor.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/WsTransport.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/X509Contents.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/gen/DayOfWeekHash.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/gen/HeaderHash.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/gen/MethodHash.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/gen/MonthHash.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/resip/stack/gen/ParameterHash.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/AbstractFifo.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/AndroidLogger.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/BaseException.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Coders.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Condition.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/ConfigParse.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/CountStream.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Data.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/DataStream.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/DnsUtil.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/FdPoll.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/FileSystem.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/GeneralCongestionManager.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/HeapInstanceCounter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/KeyValueStore.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Lock.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Log.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/MD5Stream.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Mutex.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/NetNs.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/ParseBuffer.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/ParseException.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Poll.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/PoolBase.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/RADIUSDigestAuthenticator.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/RWMutex.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Random.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/RecursiveMutex.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/SelectInterruptor.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/ServerProcess.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Sha1.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Socket.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Subsystem.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/SysLogBuf.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/SysLogStream.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/ThreadIf.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Time.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/Timer.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/TransportType.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/XMLCursor.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/AresDns.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsAAAARecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsCnameRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsHostRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsNaptrRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsResourceRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsSrvRecord.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsStub.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/DnsThread.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ExternalDnsFactory.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/QueryTypes.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/RRCache.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/RRList.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/RROverlay.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/RRVip.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares__close_sockets.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares__get_hostent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares__read_line.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_destroy.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_expand_name.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_fds.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_free_errmem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_free_hostent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_free_string.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_gethostbyaddr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_gethostbyname.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_local.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_mkquery.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_parse_a_reply.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_parse_ptr_reply.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_process.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_query.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_search.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_send.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_strerror.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/dns/ares/ares_timeout.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/resipfaststreams.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/stun/Stun.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/stun/Udp.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../resiprocate/rutil/vmd5.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <folder path="0/resiprocate/resip/dum">
+        <ccTool>
+          <incDir>
+            <pElem>../../resiprocate/resip/dum</pElem>
+            <pElem>../../resiprocate</pElem>
+            <pElem>../../resiprocate/rutil/dns/ares</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/resiprocate/resip/stack">
+        <ccTool>
+          <incDir>
+            <pElem>../../resiprocate/resip/stack</pElem>
+            <pElem>../../resiprocate</pElem>
+            <pElem>../../resiprocate/rutil/dns/ares</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/resiprocate/rutil">
+        <ccTool>
+          <incDir>
+            <pElem>../../resiprocate/rutil</pElem>
+            <pElem>../../resiprocate</pElem>
+            <pElem>../../resiprocate/rutil/dns/ares</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>
