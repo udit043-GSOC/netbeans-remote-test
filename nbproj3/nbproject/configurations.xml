@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="../stlport" name="0">
+      <df name="stlport">
+        <df name="build">
+          <df name="Makefiles">
+            <df name="ut">
+              <df name="app-c">
+                <in>test.c</in>
+              </df>
+              <df name="app1">
+                <in>test.cc</in>
+              </df>
+              <df name="app2">
+                <in>test.cc</in>
+                <in>test2.cc</in>
+                <in>test3.cc</in>
+                <in>test31.cc</in>
+              </df>
+              <df name="app2-mult">
+                <in>test2.cc</in>
+                <in>test3.cc</in>
+                <in>test31.cc</in>
+              </df>
+              <df name="so1">
+                <in>test_c.cc</in>
+                <in>test_cc.cc</in>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <df name="c_locale_dummy">
+            <in>c_locale_dummy.c</in>
+          </df>
+          <df name="c_locale_glibc">
+            <in>c_locale_glibc2.c</in>
+          </df>
+          <df name="c_locale_win32">
+            <in>c_locale_win32.c</in>
+            <in>c_wlocale_win32.c</in>
+          </df>
+          <df name="details">
+            <in>fstream_stdio.cpp</in>
+            <in>fstream_unistd.cpp</in>
+            <in>fstream_win32io.cpp</in>
+          </df>
+          <in>allocators.cpp</in>
+          <in>bitset.cpp</in>
+          <in>c_locale.c</in>
+          <in>codecvt.cpp</in>
+          <in>collate.cpp</in>
+          <in>complex.cpp</in>
+          <in>complex_io.cpp</in>
+          <in>complex_trig.cpp</in>
+          <in>ctype.cpp</in>
+          <in>cxa.c</in>
+          <in>dll_main.cpp</in>
+          <in>facets_byname.cpp</in>
+          <in>fstream.cpp</in>
+          <in>ios.cpp</in>
+          <in>iostream.cpp</in>
+          <in>istream.cpp</in>
+          <in>locale.cpp</in>
+          <in>locale_catalog.cpp</in>
+          <in>locale_impl.cpp</in>
+          <in>messages.cpp</in>
+          <in>monetary.cpp</in>
+          <in>num_get.cpp</in>
+          <in>num_get_float.cpp</in>
+          <in>num_put.cpp</in>
+          <in>num_put_float.cpp</in>
+          <in>numpunct.cpp</in>
+          <in>ostream.cpp</in>
+          <in>sstream.cpp</in>
+          <in>stdio_streambuf.cpp</in>
+          <in>string.cpp</in>
+          <in>strstream.cpp</in>
+          <in>time_facets.cpp</in>
+        </df>
+        <df name="stlport">
+          <df name="stl">
+            <df name="debug">
+              <in>_debug.c</in>
+            </df>
+            <in>_algo.c</in>
+            <in>_algobase.c</in>
+            <in>_alloc.c</in>
+            <in>_bitset.c</in>
+            <in>_complex.c</in>
+            <in>_deque.c</in>
+            <in>_fstream.c</in>
+            <in>_hashtable.c</in>
+            <in>_heap.c</in>
+            <in>_ios.c</in>
+            <in>_istream.c</in>
+            <in>_limits.c</in>
+            <in>_list.c</in>
+            <in>_monetary.c</in>
+            <in>_num_get.c</in>
+            <in>_num_put.c</in>
+            <in>_numeric.c</in>
+            <in>_ostream.c</in>
+            <in>_range_errors.c</in>
+            <in>_rope.c</in>
+            <in>_slist.c</in>
+            <in>_slist_base.c</in>
+            <in>_sstream.c</in>
+            <in>_stdexcept_base.c</in>
+            <in>_streambuf.c</in>
+            <in>_string.c</in>
+            <in>_string_io.c</in>
+            <in>_tempbuf.c</in>
+            <in>_threads.c</in>
+            <in>_time_facets.c</in>
+            <in>_tree.c</in>
+            <in>_valarray.c</in>
+            <in>_vector.c</in>
+          </df>
+        </df>
+      </df>
+      <in>sample.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../stlport/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>../stlport</Elem>
+  </sourceRootList>
+  <projectmakefile>../stlport/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fno-exceptions -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../stlport</buildCommandWorkingDir>
+          <buildCommand>./build.sh</buildCommand>
+          <cleanCommand>git clean -fdx</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="../stlport/sample.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../stlport/stlport/stlport</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ARCH=amd64</Elem>
+            <Elem>LINUX</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>_GNU_SOURCE</Elem>
+            <Elem>_LARGEFILE64_SOURCE</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_STLP_NO_EXCEPTIONS</Elem>
+            <Elem>_STLP_NO_IOSTREAMS</Elem>
+            <Elem>_STLP_STD_NAME=ewoc_stlp</Elem>
+            <Elem>_STLP_USE_OWN_NAMESPACE</Elem>
+            <Elem>_XOPEN_SOURCE=600</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app-c/test.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app1/test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2-mult/test2.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2-mult/test3.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2-mult/test31.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2/test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2/test2.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2/test3.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/app2/test31.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/so1/test_c.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/build/Makefiles/ut/so1/test_cc.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/allocators.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/bitset.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/c_locale.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/c_locale_dummy/c_locale_dummy.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/c_locale_glibc/c_locale_glibc2.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/c_locale_win32/c_locale_win32.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/c_locale_win32/c_wlocale_win32.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/codecvt.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/collate.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/complex.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/complex_io.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/complex_trig.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/ctype.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/cxa.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="../stlport/stlport/src/details/fstream_stdio.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/details/fstream_unistd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/details/fstream_win32io.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/dll_main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/facets_byname.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/fstream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/ios.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/iostream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/istream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/locale.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/locale_catalog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/locale_impl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/messages.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/monetary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/num_get.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/num_get_float.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/num_put.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/num_put_float.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/numpunct.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/ostream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/sstream.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/stdio_streambuf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/string.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/strstream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/src/time_facets.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_algo.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_algobase.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_alloc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_bitset.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_complex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_deque.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_fstream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_hashtable.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_heap.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_ios.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_istream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_limits.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_list.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_monetary.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_num_get.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_num_put.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_numeric.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_ostream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_range_errors.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_rope.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_slist.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_slist_base.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_sstream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_stdexcept_base.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_streambuf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_string.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_string_io.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_tempbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_threads.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_time_facets.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_tree.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_valarray.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/_vector.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="../stlport/stlport/stlport/stl/debug/_debug.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
